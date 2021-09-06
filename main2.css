@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+.row {
+    overflow-x: hidden;
+}
+
+#root {
+    height: 250px;
+}
+
+#ulCarousel {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    height: 200px;
+    overflow-x: visible;
+    white-space: nowrap;
+    will-change: transform;
+    transition: transform .5s ease;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}

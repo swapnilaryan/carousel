@@ -1,0 +1,29 @@
+.container {
+	display:  inline-block;
+	height: 200px;
+}
+
+#carousel {
+	height: 250px;
+	overflow-x: hidden;
+}
+
+body {
+	margin: 0;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	height: 200px;
+	border: 1px solid black;
+	width: 100%;
+}
+
+ul {
+	will-change: transform;
+	overflow: visible;
+	white-space: nowrap;
+	padding: 0;
+	transition: transform .5s ease;
+}
